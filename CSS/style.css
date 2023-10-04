@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+.header .logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.header .menu ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.header .menu ul li{
+    margin: 0px 30px;
+}
+.header .menu ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+/* banner */
+.banner{
+    width: 100%;
+    height: 750px;
+    margin-top: -100px;
+    /* background-image: url("../img/water.jpg"); */
+    background-color: #D7F5DC;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner .text{
+    padding: 200px 0px;
+    text-align: center;
+    /* width: 50%; */
+}
+.banner .text h1{
+    margin: 0;
+
+}
+.banner .text p{
+    margin: 20px 30%;
+}
+.banner .text button{
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+}
+.banner .text button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* services */
+.s-container{
+    padding: 100px 0px;
+}
+.s-container h1{
+ font-weight: 700;  
+    text-align: center;
+}
+.services{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.services .service{
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 6px;
+}
+.services .service img{
+    width: 100%;
+    /* padding: 5px; */
+}
+.services .service p{
+    margin: 20px 20px;
+}
+
+.services button{
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+.services button:hover{
+    background-color: white;
+    color: black;
+}
+/* work */
+
+/* services */
+.featured{
+    padding: 50px 0px 100px 0px;
+    margin: 0;
+}
+.featured h1{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.work{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    /* padding: 100px 0px; */
+    padding: 0;
+    
+}
+.work .item{
+    max-width: 33%;
+    /* margin:  auto; */
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 25px;
+    position: relative;
+    margin: 20px;
+}
+
+.featured .item .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .featured .item .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .featured .item:hover .image {
+    opacity: 0.3;
+  }
+  
+  .featured .item:hover .middle {
+    opacity: 1;
+  }
+  
+  .featured .item .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  /* footer */
+
+.footer {
+    border-top: 2px solid black;
+    background-color: black;
+}
+.footerContainer{
+    
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .logo img{
+    width: 150px;
+    height: 100px;
+}
+
+.footerContainer .menu ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.footerContainer .menu ul li{
+    margin: 0px 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.footerContainer .menu ul li svg{
+    width: 30px;
+    height: 30px;
+}
